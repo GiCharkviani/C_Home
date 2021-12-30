@@ -46,7 +46,7 @@ int main()
                     cout << "[ ";
                     for (auto val : list)
                         cout << val << " ";
-                    cout << " ]" << endl;
+                    cout << "]" << endl;
                 }
                 else
                 {
@@ -130,7 +130,7 @@ int main()
             case 'C':
             {
                 list.clear();
-                cout << "List is Clean!";
+                cout << "List is Clean!" << endl;
                 break;
             };
 
