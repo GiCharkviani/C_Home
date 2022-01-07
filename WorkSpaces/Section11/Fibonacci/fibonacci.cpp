@@ -13,6 +13,6 @@ int main() {
     cout << fibonacci(5) << endl; // 5
     cout << fibonacci(30) << endl; // 832040
     cout << fibonacci(40) << endl; // 102334155
-    
+
     return 0;
 }
