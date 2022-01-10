@@ -29,6 +29,9 @@
 		},
 		{
 			"path": "Section11"
+		},
+		{
+			"path": "Section12"
 		}
 	],
 	"settings": {
@@ -76,7 +79,8 @@
 			"xstring": "cpp",
 			"xtr1common": "cpp",
 			"xutility": "cpp",
-			"string": "cpp"
+			"string": "cpp",
+			"climits": "cpp"
 		},
 		"workbench.colorTheme": "Visual Studio Dark - C++"
 	}

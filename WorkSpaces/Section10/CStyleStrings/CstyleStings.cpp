@@ -26,13 +26,13 @@ int main()
     // cout << "Hello, " << first_name << " your first name has " << strlen(first_name) << " characters" << endl;
     // cout << "and your last name, " << last_name << " has " << strlen(last_name) << " characters" << endl;
 
-    // // here everything depends on 0 in the end of string, in the end of characters array
+    // // here everything depends on /0 in the end of string, in the end of characters array
 
     // strcpy(full_name, first_name); // copy first_name to full_name, otherwise won't be able to concat. it's like assigning
     // strcat(full_name, " ");  // concatenate full_name and space
     // strcat(full_name, last_name); // concatenate first_name to full_name (_)
     // cout << "Your full name is " << full_name << endl;
-
+ 
     // Example 2
 
     // cout << "---------------------------" << endl;
