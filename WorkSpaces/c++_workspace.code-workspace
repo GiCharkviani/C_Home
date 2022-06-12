@@ -1,37 +1,37 @@
 {
 	"folders": [
 		{
-			"path": "FirstWorkspace"
+			"path": "1.Getting_Started"
 		},
 		{
-			"path": "Section4"
+			"path": "2.Structure_Of_CProgram"
 		},
 		{
-			"path": "Section5"
+			"path": "3.Variables_And_Constants"
 		},
 		{
-			"path": "Section6"
+			"path": "4.Arrays_And_Vectors"
 		},
 		{
-			"path": "Section7"
+			"path": "5.Statements_And_Operators"
 		},
 		{
-			"path": "buildConfig"
+			"path": "6.Controlling_Program_Flow"
 		},
 		{
-			"path": "Section8"
+			"path": "7.Characters_And_Strings"
 		},
 		{
-			"path": "Section9"
+			"path": "8.Functions"
 		},
 		{
-			"path": "Section10"
+			"path": "9.Pointers_And_References"
 		},
 		{
-			"path": "Section11"
+			"path": "10.OOP"
 		},
 		{
-			"path": "Section12"
+			"path": "11.Operator_Overloading"
 		}
 	],
 	"settings": {
@@ -52,6 +52,7 @@
 			"cwchar": "cpp",
 			"exception": "cpp",
 			"initializer_list": "cpp",
+			"iomanip": "cpp",
 			"ios": "cpp",
 			"iosfwd": "cpp",
 			"iostream": "cpp",
@@ -63,6 +64,7 @@
 			"ostream": "cpp",
 			"stdexcept": "cpp",
 			"streambuf": "cpp",
+			"string": "cpp",
 			"system_error": "cpp",
 			"tuple": "cpp",
 			"type_traits": "cpp",
@@ -73,15 +75,14 @@
 			"xiosbase": "cpp",
 			"xlocale": "cpp",
 			"xlocinfo": "cpp",
+			"xlocmon": "cpp",
 			"xlocnum": "cpp",
+			"xloctime": "cpp",
 			"xmemory": "cpp",
 			"xstddef": "cpp",
 			"xstring": "cpp",
 			"xtr1common": "cpp",
-			"xutility": "cpp",
-			"string": "cpp",
-			"climits": "cpp"
-		},
-		"workbench.colorTheme": "Visual Studio Dark - C++"
+			"xutility": "cpp"
+		}
 	}
 }

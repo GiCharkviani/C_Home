@@ -1,10 +1,18 @@
 #include <iostream>
 
 using namespace std;
+
 int *apply_all(const int *const ar, size_t size1, const int *const ar2, size_t size2);
+
 void print(const int *arr, size_t size);
 
-int *apply_all(int *const ar, size_t size1, const int *const ar2, size_t size2)
+/**
+ * 2 const = ვერც დეფერენსს ვერ შეცვლი და ვერც პოინტერს ესაინმენტს ვერ გააკეთებ
+ * 1 const = მარტო დერეფერენსირებას ვერ შეცვლი
+ * 1 *const =  მარტო პოინტერის ესაინმენტს ვერ შეძლებ
+ */
+
+int *apply_all(int *const ar, size_t size1, int *const ar2, size_t size2)
 {
     int *new_array = new int;
     int controller{0};
@@ -29,7 +37,6 @@ void print(int *arr, size_t size)
 
 int main()
 {
-
     const size_t array1_size{5};
     const size_t array2_size{3};
 
@@ -47,7 +54,8 @@ int main()
 
     cout << "Result: ";
     print(results, results_size);
-    delete[] results;
+
+    delete [] results;
 
     cout << endl;
 
