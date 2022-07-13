@@ -39,7 +39,7 @@ Player::Player(string name_val, int health_val, int xp_val) : name{name_val}, he
 // the same but will call three args constructor:
 Player::Player(const Player &source) : Player(source.name, source.health, source.xp)
 {
-    cout << "Copy constructor - made copy of : " << source.name << endl;
+    cout << "Copy constructor - made copy of: " << source.name << endl;
 }
 
 // exercising copy

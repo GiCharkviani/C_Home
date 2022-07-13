@@ -72,7 +72,7 @@ int main() {
     *other_score_ptr = 85; // OK
     // score_ptr2 = &low_score2; // ERROR
 
-    // Constant ponters to Constants
+    // Constant pointers to Constants
     int last_high_score {100};
     int last_low_score {65};
     const int *const last_score_ptr {&last_high_score};

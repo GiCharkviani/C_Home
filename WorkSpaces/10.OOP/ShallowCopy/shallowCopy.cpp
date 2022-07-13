@@ -35,7 +35,7 @@ void display_shallow(Shallow s) {
 };
 
 int main() {
-    Shallow obj1 {100}; // this will point (with data property (pointer)) to invalid memory after copy of object will be destroied and hence the memory location will be destroied too
+    Shallow obj1 {100}; // this will point (with data property (pointer)) to invalid memory after copy of object will be destroyed and hence the memory location will be destroyed too
     display_shallow(obj1);
 
     Shallow obj2 {obj1}; // this will also point to invalid data (obj2)
