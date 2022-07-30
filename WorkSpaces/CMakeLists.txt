@@ -3,4 +3,4 @@ project(WorkSpaces)
 
 set(CMAKE_CXX_STANDARD 17)
 
-add_executable(WorkSpaces 10.OOP/mainRepeate.cpp 10.OOP/Account.cpp 10.OOP/Account.h)
+add_executable(workspaces 11.Operator_Overloading/insertionAndExtractionOperators/main.cpp 11.Operator_Overloading/insertionAndExtractionOperators/Mystring.cpp 11.Operator_Overloading/insertionAndExtractionOperators/Mystring.h)

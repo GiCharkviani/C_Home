@@ -1,58 +1,103 @@
 #include <iostream>
 #include <string>
 #include <vector>
-#include "Account.h"
 
 using namespace std;
 
-class Player {
+
+
+class Customer {
 private:
     string name;
+    string surname;
     int *age;
+    vector<string> *hobbies;
+
+    static int quality;
 public:
-    string getName();
-    int getAge();
-    Player(string name_val, int age_val);
+    // Static
+    static int getQuality();
 
-    Player(const Player &source);
+    string getFullName() const;
+    int getAge() const;
+    vector<string> getHobbies() const; // const lets you to use const before class declaration
+    // and prevents you from modifying class members from inside of the method
 
-    ~Player();
+    // constructors:
+    Customer();
+    Customer(string name_val, string surname_val);
+    Customer(string name_val, string surname_val, int age, vector<string> hobbies_val);
+
+    ~Customer() {
+        delete age;
+        delete hobbies;
+        --quality;
+    }
+    // copy constructor
+    Customer(const Customer &source);
+
+    // move constructor
+    Customer(Customer &&source);
 };
 
-string Player::getName() {
-    return name;
-}
-
-int Player::getAge() {
+int Customer::getAge() const {
     return *age;
 }
+string Customer::getFullName() const {
+    return name + ' ' + surname;
+}
+vector<string> Customer::getHobbies() const {
+    return *hobbies;
+}
 
-Player::Player(string name_val, int age_val): name{name_val}  {
+Customer::Customer(): Customer("Customer", "Customeriola", 15, {"Dancing", "Programming"}) {};
+
+Customer::Customer(string name_val, string surname_val): Customer(name_val, surname_val, 15, {"Dancing", "Programming"}) {};
+
+Customer::Customer(string name_val, string surname_val, int age_val, vector<string> hobbies_val): name {name_val}, surname {surname_val} {
+    ++quality;
     age = new int;
     *age = age_val;
+    hobbies = new vector<string>;
+    *this->hobbies = hobbies_val; // using "this" keyword
+};
+
+// Copy constructor
+Customer::Customer(const Customer &source): Customer(source.name, source.surname, *source.age, *source.hobbies) {
+    cout << "Copy constructor called on: " << source.name << endl;
 }
 
-Player::Player(const Player &source): Player{source.name, *source.age} {
-    cout << "Copy constructor called" << endl;
+// Move constructor
+Customer::Customer(Customer &&source): Customer(source.name, source.surname, *source.age, *source.hobbies) {
+    source.age = nullptr;
+    source.hobbies = nullptr;
 }
 
-Player::~Player() {
-    delete age;
-    cout << "Destructor called" << endl;
+// Static
+int Customer::quality {56};
+
+int Customer::getQuality() {
+    return quality;
 }
 
-void display_name_and_age(Player player) {
-    cout << player.getName() << endl;
-    cout << player.getAge() << endl;
-}
+
+
+void printNewObj(Customer client);
 
 int main() {
-    Player giorgi {"giorgi", 16};
-    display_name_and_age(giorgi);
+    Customer jeff;
+    Customer christi("Christi", "Capalina", 25, {"Coding", "Flying"});
 
-    Player giorgi_bro = giorgi;
-    cout << giorgi_bro.getName() << endl;
-    cout << giorgi_bro.getAge() << endl;
+    cout << Customer::getQuality() << " quality" << endl;
+
+    printNewObj(jeff);
+
+     for(auto hobby: christi.getHobbies()) cout << hobby << endl;
+
 
     return 0;
+}
+
+void printNewObj(Customer client) {
+    cout << client.getAge() << endl;
 }
