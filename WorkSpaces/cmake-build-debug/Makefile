@@ -129,53 +129,29 @@ workspaces/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/workspaces.dir/build.make CMakeFiles/workspaces.dir/build
 .PHONY : workspaces/fast
 
-11.Operator_Overloading/insertionAndExtractionOperators/Mystring.o: 11.Operator_Overloading/insertionAndExtractionOperators/Mystring.cpp.o
-.PHONY : 11.Operator_Overloading/insertionAndExtractionOperators/Mystring.o
+17.The_Standard_Template_Library_STL/Deque/main.o: 17.The_Standard_Template_Library_STL/Deque/main.cpp.o
+.PHONY : 17.The_Standard_Template_Library_STL/Deque/main.o
 
 # target to build an object file
-11.Operator_Overloading/insertionAndExtractionOperators/Mystring.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/workspaces.dir/build.make CMakeFiles/workspaces.dir/11.Operator_Overloading/insertionAndExtractionOperators/Mystring.cpp.o
-.PHONY : 11.Operator_Overloading/insertionAndExtractionOperators/Mystring.cpp.o
+17.The_Standard_Template_Library_STL/Deque/main.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/workspaces.dir/build.make CMakeFiles/workspaces.dir/17.The_Standard_Template_Library_STL/Deque/main.cpp.o
+.PHONY : 17.The_Standard_Template_Library_STL/Deque/main.cpp.o
 
-11.Operator_Overloading/insertionAndExtractionOperators/Mystring.i: 11.Operator_Overloading/insertionAndExtractionOperators/Mystring.cpp.i
-.PHONY : 11.Operator_Overloading/insertionAndExtractionOperators/Mystring.i
-
-# target to preprocess a source file
-11.Operator_Overloading/insertionAndExtractionOperators/Mystring.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/workspaces.dir/build.make CMakeFiles/workspaces.dir/11.Operator_Overloading/insertionAndExtractionOperators/Mystring.cpp.i
-.PHONY : 11.Operator_Overloading/insertionAndExtractionOperators/Mystring.cpp.i
-
-11.Operator_Overloading/insertionAndExtractionOperators/Mystring.s: 11.Operator_Overloading/insertionAndExtractionOperators/Mystring.cpp.s
-.PHONY : 11.Operator_Overloading/insertionAndExtractionOperators/Mystring.s
-
-# target to generate assembly for a file
-11.Operator_Overloading/insertionAndExtractionOperators/Mystring.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/workspaces.dir/build.make CMakeFiles/workspaces.dir/11.Operator_Overloading/insertionAndExtractionOperators/Mystring.cpp.s
-.PHONY : 11.Operator_Overloading/insertionAndExtractionOperators/Mystring.cpp.s
-
-11.Operator_Overloading/insertionAndExtractionOperators/main.o: 11.Operator_Overloading/insertionAndExtractionOperators/main.cpp.o
-.PHONY : 11.Operator_Overloading/insertionAndExtractionOperators/main.o
-
-# target to build an object file
-11.Operator_Overloading/insertionAndExtractionOperators/main.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/workspaces.dir/build.make CMakeFiles/workspaces.dir/11.Operator_Overloading/insertionAndExtractionOperators/main.cpp.o
-.PHONY : 11.Operator_Overloading/insertionAndExtractionOperators/main.cpp.o
-
-11.Operator_Overloading/insertionAndExtractionOperators/main.i: 11.Operator_Overloading/insertionAndExtractionOperators/main.cpp.i
-.PHONY : 11.Operator_Overloading/insertionAndExtractionOperators/main.i
+17.The_Standard_Template_Library_STL/Deque/main.i: 17.The_Standard_Template_Library_STL/Deque/main.cpp.i
+.PHONY : 17.The_Standard_Template_Library_STL/Deque/main.i
 
 # target to preprocess a source file
-11.Operator_Overloading/insertionAndExtractionOperators/main.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/workspaces.dir/build.make CMakeFiles/workspaces.dir/11.Operator_Overloading/insertionAndExtractionOperators/main.cpp.i
-.PHONY : 11.Operator_Overloading/insertionAndExtractionOperators/main.cpp.i
+17.The_Standard_Template_Library_STL/Deque/main.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/workspaces.dir/build.make CMakeFiles/workspaces.dir/17.The_Standard_Template_Library_STL/Deque/main.cpp.i
+.PHONY : 17.The_Standard_Template_Library_STL/Deque/main.cpp.i
 
-11.Operator_Overloading/insertionAndExtractionOperators/main.s: 11.Operator_Overloading/insertionAndExtractionOperators/main.cpp.s
-.PHONY : 11.Operator_Overloading/insertionAndExtractionOperators/main.s
+17.The_Standard_Template_Library_STL/Deque/main.s: 17.The_Standard_Template_Library_STL/Deque/main.cpp.s
+.PHONY : 17.The_Standard_Template_Library_STL/Deque/main.s
 
 # target to generate assembly for a file
-11.Operator_Overloading/insertionAndExtractionOperators/main.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/workspaces.dir/build.make CMakeFiles/workspaces.dir/11.Operator_Overloading/insertionAndExtractionOperators/main.cpp.s
-.PHONY : 11.Operator_Overloading/insertionAndExtractionOperators/main.cpp.s
+17.The_Standard_Template_Library_STL/Deque/main.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/workspaces.dir/build.make CMakeFiles/workspaces.dir/17.The_Standard_Template_Library_STL/Deque/main.cpp.s
+.PHONY : 17.The_Standard_Template_Library_STL/Deque/main.cpp.s
 
 # Help Target
 help:
@@ -186,12 +162,9 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... workspaces"
-	@echo "... 11.Operator_Overloading/insertionAndExtractionOperators/Mystring.o"
-	@echo "... 11.Operator_Overloading/insertionAndExtractionOperators/Mystring.i"
-	@echo "... 11.Operator_Overloading/insertionAndExtractionOperators/Mystring.s"
-	@echo "... 11.Operator_Overloading/insertionAndExtractionOperators/main.o"
-	@echo "... 11.Operator_Overloading/insertionAndExtractionOperators/main.i"
-	@echo "... 11.Operator_Overloading/insertionAndExtractionOperators/main.s"
+	@echo "... 17.The_Standard_Template_Library_STL/Deque/main.o"
+	@echo "... 17.The_Standard_Template_Library_STL/Deque/main.i"
+	@echo "... 17.The_Standard_Template_Library_STL/Deque/main.s"
 .PHONY : help
 
 

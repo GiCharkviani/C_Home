@@ -81,12 +81,12 @@ clean: CMakeFiles/workspaces.dir/clean
 CMakeFiles/workspaces.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/workspaces.dir/build.make CMakeFiles/workspaces.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/workspaces.dir/build.make CMakeFiles/workspaces.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/giorgi.charkviani/Desktop/Learning/C++/C_Home/WorkSpaces/cmake-build-debug/CMakeFiles --progress-num=1,2,3 "Built target workspaces"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/giorgi.charkviani/Desktop/Learning/C++/C_Home/WorkSpaces/cmake-build-debug/CMakeFiles --progress-num=1,2 "Built target workspaces"
 .PHONY : CMakeFiles/workspaces.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/workspaces.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/giorgi.charkviani/Desktop/Learning/C++/C_Home/WorkSpaces/cmake-build-debug/CMakeFiles 3
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/giorgi.charkviani/Desktop/Learning/C++/C_Home/WorkSpaces/cmake-build-debug/CMakeFiles 2
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/workspaces.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /Users/giorgi.charkviani/Desktop/Learning/C++/C_Home/WorkSpaces/cmake-build-debug/CMakeFiles 0
 .PHONY : CMakeFiles/workspaces.dir/rule
