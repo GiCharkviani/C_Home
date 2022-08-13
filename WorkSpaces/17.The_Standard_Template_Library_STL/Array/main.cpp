@@ -1,4 +1,4 @@
-// Section 20
+
 // std::array
 #include <iostream>
 #include <array>

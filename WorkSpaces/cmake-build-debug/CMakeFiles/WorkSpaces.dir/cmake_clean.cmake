@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/workspaces.dir/17.The_Standard_Template_Library_STL/Deque/main.cpp.o"
-  "CMakeFiles/workspaces.dir/17.The_Standard_Template_Library_STL/Deque/main.cpp.o.d"
+  "CMakeFiles/workspaces.dir/19.Enumerations/ScopedEnums/main.cpp.o"
+  "CMakeFiles/workspaces.dir/19.Enumerations/ScopedEnums/main.cpp.o.d"
   "workspaces"
   "workspaces.pdb"
 )

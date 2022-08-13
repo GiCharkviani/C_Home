@@ -8,7 +8,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "/Users/giorgi.charkviani/Desktop/Learning/C++/C_Home/WorkSpaces/17.The_Standard_Template_Library_STL/Deque/main.cpp" "CMakeFiles/workspaces.dir/17.The_Standard_Template_Library_STL/Deque/main.cpp.o" "gcc" "CMakeFiles/workspaces.dir/17.The_Standard_Template_Library_STL/Deque/main.cpp.o.d"
+  "/Users/giorgi.charkviani/Desktop/Learning/C++/C_Home/WorkSpaces/19.Enumerations/ScopedEnums/main.cpp" "CMakeFiles/workspaces.dir/19.Enumerations/ScopedEnums/main.cpp.o" "gcc" "CMakeFiles/workspaces.dir/19.Enumerations/ScopedEnums/main.cpp.o.d"
   )
 
 # Targets to which this target links.

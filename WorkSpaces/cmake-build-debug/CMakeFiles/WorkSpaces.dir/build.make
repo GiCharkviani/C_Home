@@ -69,28 +69,28 @@ include CMakeFiles/workspaces.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/workspaces.dir/flags.make
 
-CMakeFiles/workspaces.dir/17.The_Standard_Template_Library_STL/Deque/main.cpp.o: CMakeFiles/workspaces.dir/flags.make
-CMakeFiles/workspaces.dir/17.The_Standard_Template_Library_STL/Deque/main.cpp.o: ../17.The_Standard_Template_Library_STL/Deque/main.cpp
-CMakeFiles/workspaces.dir/17.The_Standard_Template_Library_STL/Deque/main.cpp.o: CMakeFiles/workspaces.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/giorgi.charkviani/Desktop/Learning/C++/C_Home/WorkSpaces/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/workspaces.dir/17.The_Standard_Template_Library_STL/Deque/main.cpp.o"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/workspaces.dir/17.The_Standard_Template_Library_STL/Deque/main.cpp.o -MF CMakeFiles/workspaces.dir/17.The_Standard_Template_Library_STL/Deque/main.cpp.o.d -o CMakeFiles/workspaces.dir/17.The_Standard_Template_Library_STL/Deque/main.cpp.o -c /Users/giorgi.charkviani/Desktop/Learning/C++/C_Home/WorkSpaces/17.The_Standard_Template_Library_STL/Deque/main.cpp
+CMakeFiles/workspaces.dir/19.Enumerations/ScopedEnums/main.cpp.o: CMakeFiles/workspaces.dir/flags.make
+CMakeFiles/workspaces.dir/19.Enumerations/ScopedEnums/main.cpp.o: ../19.Enumerations/ScopedEnums/main.cpp
+CMakeFiles/workspaces.dir/19.Enumerations/ScopedEnums/main.cpp.o: CMakeFiles/workspaces.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/giorgi.charkviani/Desktop/Learning/C++/C_Home/WorkSpaces/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/workspaces.dir/19.Enumerations/ScopedEnums/main.cpp.o"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/workspaces.dir/19.Enumerations/ScopedEnums/main.cpp.o -MF CMakeFiles/workspaces.dir/19.Enumerations/ScopedEnums/main.cpp.o.d -o CMakeFiles/workspaces.dir/19.Enumerations/ScopedEnums/main.cpp.o -c /Users/giorgi.charkviani/Desktop/Learning/C++/C_Home/WorkSpaces/19.Enumerations/ScopedEnums/main.cpp
 
-CMakeFiles/workspaces.dir/17.The_Standard_Template_Library_STL/Deque/main.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/workspaces.dir/17.The_Standard_Template_Library_STL/Deque/main.cpp.i"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/giorgi.charkviani/Desktop/Learning/C++/C_Home/WorkSpaces/17.The_Standard_Template_Library_STL/Deque/main.cpp > CMakeFiles/workspaces.dir/17.The_Standard_Template_Library_STL/Deque/main.cpp.i
+CMakeFiles/workspaces.dir/19.Enumerations/ScopedEnums/main.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/workspaces.dir/19.Enumerations/ScopedEnums/main.cpp.i"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/giorgi.charkviani/Desktop/Learning/C++/C_Home/WorkSpaces/19.Enumerations/ScopedEnums/main.cpp > CMakeFiles/workspaces.dir/19.Enumerations/ScopedEnums/main.cpp.i
 
-CMakeFiles/workspaces.dir/17.The_Standard_Template_Library_STL/Deque/main.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/workspaces.dir/17.The_Standard_Template_Library_STL/Deque/main.cpp.s"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/giorgi.charkviani/Desktop/Learning/C++/C_Home/WorkSpaces/17.The_Standard_Template_Library_STL/Deque/main.cpp -o CMakeFiles/workspaces.dir/17.The_Standard_Template_Library_STL/Deque/main.cpp.s
+CMakeFiles/workspaces.dir/19.Enumerations/ScopedEnums/main.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/workspaces.dir/19.Enumerations/ScopedEnums/main.cpp.s"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/giorgi.charkviani/Desktop/Learning/C++/C_Home/WorkSpaces/19.Enumerations/ScopedEnums/main.cpp -o CMakeFiles/workspaces.dir/19.Enumerations/ScopedEnums/main.cpp.s
 
 # Object files for target workspaces
 workspaces_OBJECTS = \
-"CMakeFiles/workspaces.dir/17.The_Standard_Template_Library_STL/Deque/main.cpp.o"
+"CMakeFiles/workspaces.dir/19.Enumerations/ScopedEnums/main.cpp.o"
 
 # External object files for target workspaces
 workspaces_EXTERNAL_OBJECTS =
 
-workspaces: CMakeFiles/workspaces.dir/17.The_Standard_Template_Library_STL/Deque/main.cpp.o
+workspaces: CMakeFiles/workspaces.dir/19.Enumerations/ScopedEnums/main.cpp.o
 workspaces: CMakeFiles/workspaces.dir/build.make
 workspaces: CMakeFiles/workspaces.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/giorgi.charkviani/Desktop/Learning/C++/C_Home/WorkSpaces/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable workspaces"

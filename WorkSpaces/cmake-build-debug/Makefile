@@ -129,29 +129,29 @@ workspaces/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/workspaces.dir/build.make CMakeFiles/workspaces.dir/build
 .PHONY : workspaces/fast
 
-17.The_Standard_Template_Library_STL/Deque/main.o: 17.The_Standard_Template_Library_STL/Deque/main.cpp.o
-.PHONY : 17.The_Standard_Template_Library_STL/Deque/main.o
+19.Enumerations/ScopedEnums/main.o: 19.Enumerations/ScopedEnums/main.cpp.o
+.PHONY : 19.Enumerations/ScopedEnums/main.o
 
 # target to build an object file
-17.The_Standard_Template_Library_STL/Deque/main.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/workspaces.dir/build.make CMakeFiles/workspaces.dir/17.The_Standard_Template_Library_STL/Deque/main.cpp.o
-.PHONY : 17.The_Standard_Template_Library_STL/Deque/main.cpp.o
+19.Enumerations/ScopedEnums/main.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/workspaces.dir/build.make CMakeFiles/workspaces.dir/19.Enumerations/ScopedEnums/main.cpp.o
+.PHONY : 19.Enumerations/ScopedEnums/main.cpp.o
 
-17.The_Standard_Template_Library_STL/Deque/main.i: 17.The_Standard_Template_Library_STL/Deque/main.cpp.i
-.PHONY : 17.The_Standard_Template_Library_STL/Deque/main.i
+19.Enumerations/ScopedEnums/main.i: 19.Enumerations/ScopedEnums/main.cpp.i
+.PHONY : 19.Enumerations/ScopedEnums/main.i
 
 # target to preprocess a source file
-17.The_Standard_Template_Library_STL/Deque/main.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/workspaces.dir/build.make CMakeFiles/workspaces.dir/17.The_Standard_Template_Library_STL/Deque/main.cpp.i
-.PHONY : 17.The_Standard_Template_Library_STL/Deque/main.cpp.i
+19.Enumerations/ScopedEnums/main.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/workspaces.dir/build.make CMakeFiles/workspaces.dir/19.Enumerations/ScopedEnums/main.cpp.i
+.PHONY : 19.Enumerations/ScopedEnums/main.cpp.i
 
-17.The_Standard_Template_Library_STL/Deque/main.s: 17.The_Standard_Template_Library_STL/Deque/main.cpp.s
-.PHONY : 17.The_Standard_Template_Library_STL/Deque/main.s
+19.Enumerations/ScopedEnums/main.s: 19.Enumerations/ScopedEnums/main.cpp.s
+.PHONY : 19.Enumerations/ScopedEnums/main.s
 
 # target to generate assembly for a file
-17.The_Standard_Template_Library_STL/Deque/main.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/workspaces.dir/build.make CMakeFiles/workspaces.dir/17.The_Standard_Template_Library_STL/Deque/main.cpp.s
-.PHONY : 17.The_Standard_Template_Library_STL/Deque/main.cpp.s
+19.Enumerations/ScopedEnums/main.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/workspaces.dir/build.make CMakeFiles/workspaces.dir/19.Enumerations/ScopedEnums/main.cpp.s
+.PHONY : 19.Enumerations/ScopedEnums/main.cpp.s
 
 # Help Target
 help:
@@ -162,9 +162,9 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... workspaces"
-	@echo "... 17.The_Standard_Template_Library_STL/Deque/main.o"
-	@echo "... 17.The_Standard_Template_Library_STL/Deque/main.i"
-	@echo "... 17.The_Standard_Template_Library_STL/Deque/main.s"
+	@echo "... 19.Enumerations/ScopedEnums/main.o"
+	@echo "... 19.Enumerations/ScopedEnums/main.i"
+	@echo "... 19.Enumerations/ScopedEnums/main.s"
 .PHONY : help
 
 

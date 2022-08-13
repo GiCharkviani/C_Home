@@ -80,7 +80,7 @@
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="/Users/giorgi.charkviani/Desktop/Learning/C++/C_Home/WorkSpaces/17.The_Standard_Template_Library_STL/Deque/main.cpp">
+		<Unit filename="/Users/giorgi.charkviani/Desktop/Learning/C++/C_Home/WorkSpaces/19.Enumerations/ScopedEnums/main.cpp">
 			<Option target="workspaces"/>
 		</Unit>
 		<Unit filename="/Users/giorgi.charkviani/Desktop/Learning/C++/C_Home/WorkSpaces/CMakeLists.txt">

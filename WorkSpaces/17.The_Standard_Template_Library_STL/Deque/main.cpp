@@ -1,4 +1,4 @@
-// Section 20
+
 // Deque
 #include <iostream>
 #include <deque>
