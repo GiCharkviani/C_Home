@@ -18,6 +18,7 @@ void test1()
 		std::cout << local_x << std::endl;
 		std::cout << global_x << std::endl;
 	};
+
 	l();
 }
 
