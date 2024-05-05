@@ -6,5 +6,7 @@ int main() {
     std::cin >> got_number;
     std::cout << "Amazing!! That's my faborite number too!" << std::endl;
     std::cout << "No really!!, " << got_number << " is my favorite number!" <<std::endl;
+
+    std::cout << "Gamarjoba giorgi, Welcome back!" << std::endl;
     return 0;
 }
